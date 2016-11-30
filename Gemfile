@@ -32,3 +32,5 @@ gem 'jquery-rails'
 gem 'turbolinks'
 # Bootstrap for layout
 gem 'bootstrap-sass'
+# BCrypt for encrypting password_digest
+gem 'bcrypt'
