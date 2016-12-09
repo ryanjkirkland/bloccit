@@ -34,3 +34,5 @@ gem 'turbolinks'
 gem 'bootstrap-sass'
 # BCrypt for encrypting password_digest
 gem 'bcrypt'
+# Figaro for hiding passwords in ENV variables
+gem 'figaro', '1.0'
