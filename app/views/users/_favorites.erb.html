@@ -1,5 +1,4 @@
 <div class="media">
-  <%= image_tag post.user.avatar_url(48), class: 'pull-right' %>
   <%= render partial: 'votes/voter', locals: { post: post } %>
   <div class="media-body">
     <h4 class="media-heading">
